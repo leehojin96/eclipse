@@ -1,22 +1,17 @@
 package day05;
 
-import java.util.Scanner;
 
 public class Ex04 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		// 국어성적 5개 입력받아 출력하기// 입력과 출력을 분리하기 ( 기억 처리가 불일치 할때 배열이 필요해짐 )
-		int[] kors = new
-		// 
-				int[5];Scanner sc = new Scanner(System.in);
-				// 국어점수 5개입력
-				for( int i=0; i<kors.length ; i++ ){
-					System.out.print("국어점수입력");kors[i] =sc.nextInt();}
-		// 국어점수 5개 출력
-				for( int i=0; i< kors.length ;i++) {
-					System.out.print( kors[i] + "");
-					}
+		
+
+		System.out.println(args[0]);
+		//"10" = 숫자로 사용하기 위해서 변환 parseInt
+		int sul = Integer.parseInt(args[0]); //"10" 숫자로된 문자열의 형태를 진짜 숫자로 변환해주는
+		System.out.println(sul+5);
+
+		
 	}
 
 }
