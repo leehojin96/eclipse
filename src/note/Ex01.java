@@ -1,0 +1,14 @@
+package note;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int i = 19;
+		int z = 5;
+		
+		System.out.print(i/z);
+	}
+
+}
