@@ -1,9 +1,8 @@
-package note;
+package day06;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class Ex02_2 {
+public class Q13 {
 
 	public static void main(String[] args) {
 		
@@ -25,7 +24,6 @@ public class Ex02_2 {
 			
 		}
 		
-//		Arrays.sort(even);
 		
 		
 		
